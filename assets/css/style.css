@@ -1,5 +1,74 @@
-header {
+.header {
     background: rgb(24, 24, 24);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px rgb(195, 188, 188);
+
+}
+
+body {
+    background-color: rgb(64, 64, 64);
+}
+
+main {
+    padding: 2%;
+}
+
+h1 {
+    width: 60%;
+    padding: 0px 15px;
+    font-size: 200%;
+    color: rgb(158, 128, 19)
+}
+
+.top-nav {
+    width: 40%;
+
+}
+
+.nav-links {
     display: flex;
 }
 
+li {
+    width: 33%;
+}
+
+a {
+    color: rgb(158, 128, 19);
+    width: 33%;
+}
+
+.link-div {
+    text-align: center;
+}
+
+h2 {
+    font-size: 350%;
+    text-align: center;
+}
+
+
+
+
+
+
+/* 
+h1 {
+    color: rgb(158, 128, 19);
+    padding: 8px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: rgb(158, 128, 19);
+}
+
+li {
+    border: solid 3px white;
+} */

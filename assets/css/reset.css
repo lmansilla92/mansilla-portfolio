@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
   }
   
   /* Gives the body element a parent height to compare against */
@@ -31,4 +32,3 @@
   ol, ul {
     list-style: none;
   }
-  
