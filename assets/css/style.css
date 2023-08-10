@@ -1,6 +1,5 @@
 .header {
     background: rgb(24, 24, 24);
-    height: 50px;
     display: flex;
     align-items: center;
     border-bottom: solid 2px rgb(195, 188, 188);
@@ -17,7 +16,7 @@ main {
 
 h1 {
     width: 60%;
-    padding: 0px 15px;
+    padding: 15px;
     font-size: 200%;
     color: rgb(158, 128, 19)
 }
