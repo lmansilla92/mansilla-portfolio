@@ -100,11 +100,17 @@ h1 {
     padding: 45px 80px;
 }
 
+.about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h2 {
     font-size: 100px;
     color: white;
     text-align: center;
-    margin: 100px auto;
+    margin: 50px auto;
+    width: 100%;
 }
 
 .about-me-p {
@@ -122,16 +128,16 @@ h2 {
 
 .edx-logo {
     height: 100px;
-    width: 280px;
-    margin: 50px auto 57px auto;
-    rotate: 343deg;
+    width: 50%;
+    margin: 37px 0px 40px 0px;
 }
 
 .ut-logo {
     height: 126px;
-    width: 330px;
-    margin: 0px 0px 33px 500px;
+    width: 40%;
+    margin: 20px;
 }
+
 
 
 /* main {
