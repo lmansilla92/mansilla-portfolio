@@ -12,14 +12,34 @@ body {
 
 .left-section-main {
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+img {
+    height: 280px;
+    width: 280px;
+    margin: 50px auto 30px auto;
 }
 
 h1 {
     font-size: 120px;
+    text-align: center;
+    margin: 30px 30px;
 }
 
 .main-description {
-    font-size: 40px;
+    font-size: 30px;
+    margin: 0px auto 20px auto;
+    text-align: center;
+    line-height: 45px;
+}
+
+.main-p {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .right-section-main {
