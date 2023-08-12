@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .main {
     background: black;
 }
@@ -69,7 +73,6 @@ h1 {
 .main-button {
     margin: 50px auto;
     height: 185px;
-    padding: 40px;
     width: 520px;
     opacity: 0.6;
     background: linear-gradient(black, rgb(115, 111, 111));
@@ -90,10 +93,44 @@ h1 {
 }
 
 .main-button-a {
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Newsreader', sans-serif;
     font-weight: 400;
     color: white;
+    padding: 45px 80px;
+}
+
+h2 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.about-me-p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    margin: 85px 280px 0px 280px;
+}
+
+#about-me {
+    color: black;
+    font-size: 1px;
+}
+
+.edx-logo {
+    height: 100px;
+    width: 280px;
+    margin: 50px auto 57px auto;
+    rotate: 343deg;
+}
+
+.ut-logo {
+    height: 126px;
+    width: 330px;
+    margin: 0px 0px 33px 500px;
 }
 
 
