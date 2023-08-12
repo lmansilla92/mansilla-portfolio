@@ -44,6 +44,27 @@ h1 {
 
 .right-section-main {
     width: 50%;
+    display: flex;
+}
+
+.main-nav {
+    margin: 0 auto;
+}
+
+.main-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.main-links li{
+    margin: 0 auto;
+}
+
+.main-button {
+    margin: 50px auto;
+    height: 185px;
 }
 
 .main-button-a {
