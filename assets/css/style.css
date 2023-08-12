@@ -80,6 +80,13 @@ h1 {
     box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.602), 0 17px 50px 0 rgba(250, 248, 248, 0.979);
     opacity: 100;
     cursor: pointer;
+    transform: translate(5px);
+    transition: transform .4s ease-in-out;
+}
+
+.main-button:active {
+    transform: translateX(-2px);
+    transition: transform .1s;
 }
 
 .main-button-a {
