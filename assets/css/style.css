@@ -75,8 +75,9 @@ h1 {
     height: 185px;
     width: 520px;
     opacity: 0.6;
-    background: linear-gradient(black, rgb(115, 111, 111));
+    background: linear-gradient(rgb(35, 35, 35), rgb(115, 111, 111));
     border: 1px solid black;
+    border-radius: 15px;
 }
 
 .main-button:hover {
