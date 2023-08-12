@@ -2,15 +2,36 @@
     background: rgb(24, 24, 24);
 }
 
-.header {
-    display: flex;
-}
-
 body {
     background-color: rgb(26, 25, 25);
 }
 
-main {
+.header {
+    display: flex;
+}
+
+.left-section-main {
+    width: 50%;
+}
+
+h1 {
+    font-size: 120px;
+}
+
+.main-description {
+    font-size: 40px;
+}
+
+.right-section-main {
+    width: 50%;
+}
+
+.main-button-a {
+    font-size: 90px;
+}
+
+
+/* main {
     padding: 2%;
 }
 
@@ -51,7 +72,7 @@ h2 {
 
 
 
-
+ */
 
 /* 
 h1 {
