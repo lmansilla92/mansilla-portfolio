@@ -25,6 +25,11 @@ img {
     margin: 50px auto 30px auto;
 }
 
+.head-shot {
+    filter: grayscale(75%);
+    border-radius: 100px;
+}
+
 h1 {
     font-size: 7rem;
     text-align: center;
@@ -367,6 +372,9 @@ h3:hover {
 
     .head-shot {
         height: 236px;
+        width: 43%;
+        filter: grayscale(75%);
+        border-radius: 100px;
     }
 }
 
