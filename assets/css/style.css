@@ -71,7 +71,7 @@ h1 {
 .main-button {
     margin: 50px auto;
     height: 185px;
-    width: 520px;
+    width: 450px;
     opacity: 0.6;
     background: linear-gradient(rgb(35, 35, 35), rgb(115, 111, 111));
     border: 1px solid black;
@@ -166,7 +166,7 @@ h2 {
 .top-a {
     display: flex;
     justify-content: center;
-    color: rgb(161, 156, 156);
+    color: white;
     margin: 115px auto;
 }
 
@@ -253,7 +253,7 @@ h3:hover {
 
     .right-section-main {
         width: 100%;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
     
     .main-links {
@@ -262,20 +262,72 @@ h3:hover {
         justify-content: space-around;
     }
 
+    .main-nav {
+        width: 100%;
+    }
+
     .main-links li {
-        width: 33%;
+        width: 25%;
     }
 
     .main-button {
         width: 100%;
-        font-size: 50px;
+        font-size: 35px;
+        margin: 0 auto;
+        height: 80px;
+    }
+
+    .about-me-p {
+        margin: 40px 25px 75px 25px;
+    }
+
+    .contact-container {
+        margin: 0;
+    }
+
+    .top-a {
+        color: white;
+        margin: 50px auto;
+    }
+
+    .projects-container h2{
+        margin: 60px auto;
     }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 835px) {
+    .contact-globe-img {
+        width: 20%;
+    }
 
+    .contact-h2 {
+        font-size: 65px;
+    }
 
+    .edx-logo {
+        margin: 25px 60px;
+    }
+
+    .projects-container {
+        padding: 25px;
+    }
+    .projects-container h2 {
+        font-size: 60px;
+    }
+
+    .projects-container a {
+        width: 33%;
+    }
+
+    .contact-icon-img {
+        width: 120px;
+        height: 50px;
+    }
+
+    .head-shot {
+        height: 236px;
+    }
 }
 
 
