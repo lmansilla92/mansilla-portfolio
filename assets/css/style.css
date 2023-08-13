@@ -300,15 +300,15 @@ h3:hover {
 
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .main-p {
-        font-size: 1.5rem;
+        font-size: .5rem;
     }
 
     .main-button {
-        font-size: 1.5rem;
+        font-size: .5rem;
     }
 
     .main-links li {
@@ -316,8 +316,8 @@ h3:hover {
     }
 
     .about-me-p {
-        line-height: 2rem;
-        font-size: 1rem;
+        line-height: .5rem;
+        font-size: .5rem;
     }
 
     .contact-globe-img {
