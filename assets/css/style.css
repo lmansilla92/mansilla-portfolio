@@ -1,43 +1,53 @@
+:root {
+    --white: white;
+    --black: black;
+}
+
 /* makes scrolling smooth in entire page */
 html {
     scroll-behavior: smooth;
 }
-/* main content */
 
+/* main content */
+/* sets main background color and font family */
 body {
-    background-color: black;
+    background-color: var(--black);
+    font-family: 'Newsreader', sans-serif;
+
 }
 
 .header {
     display: flex;
 }
 
+/* separates left section of main  */
 .left-section-main {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
-    color: white;
+    color: var(--white);
 }
 
-img {
+/* adds styles to headshot image */
+.head-shot {
     height: 280px;
     width: 280px;
     margin: 50px auto 30px auto;
-}
-
-.head-shot {
     filter: grayscale(75%);
     border-radius: 100px;
+    box-shadow: -1px 0 50px rgb(101, 101, 101);
 }
 
+/* styles h1 and adds text shadow*/
 h1 {
     font-size: 7rem;
     text-align: center;
     margin: 30px 60px;
-    font-family: 'Newsreader', sans-serif;
     font-weight: 200;
+    text-shadow: 0 0 10px var(--white);
 }
 
+/* styles words under Luis Mansilla on main */
 .main-description {
     font-size: 24px;
     margin: 0px auto 60px auto;
@@ -48,21 +58,23 @@ h1 {
 .main-p {
     display: flex;
     flex-direction: column;
-    font-family: 'Newsreader', sans-serif;
     font-weight: 200;
     font-size: 2rem;
     
 }
 
+/* separates right section of main */
 .right-section-main {
     width: 50%;
     display: flex;
 }
 
+/* centers nav */
 .main-nav {
     margin: 0 auto;
 }
 
+/* changes nav link direction to column using flex */
 .main-links {
     display: flex;
     flex-direction: column;
@@ -74,33 +86,36 @@ h1 {
     margin: 0 auto;
 }
 
+/* styles main nav buttons with linear gradient */
 .main-button {
     margin: 50px auto;
     height: 185px;
     width: 450px;
     opacity: 0.6;
     background: linear-gradient(rgb(35, 35, 35), rgb(115, 111, 111));
-    border: 1px solid black;
+    border: 1px solid var(--black);
     border-radius: 15px;
     font-size: 4rem;
-    font-family: 'Newsreader', sans-serif;
     font-weight: 400;
-    color: white;
+    color: var(--white);
 }
 
+/* makes nav buttons move up and adds a box shadow when its hovered over */
 .main-button:hover {
-    box-shadow: -1px 0 50px white;
+    box-shadow: -1px 0 50px var(--white);
     opacity: 100;
     cursor: pointer;
     transform: translateY(-5px);
     transition: .5s ease-in-out;
 }
 
+/* moves nav buttons when they're clicked */
 .main-button:active {
     transform: translateY(5px);
-    transition: transform .1s;
+    transition: .1s;
 }
 
+/* displays flex in about me container */
 .about-me-container {
     display: flex;
     flex-wrap: wrap;
@@ -108,25 +123,28 @@ h1 {
 
 h2 {
     font-size: 5rem;
-    color: white;
+    color: var(--white);
     text-align: center;
     margin: 36px auto;
     width: 100%;
 }
 
+/* centers paragraph in about me section and defines line height */
 .about-me-p {
-    color: white;
+    color: var(--white);
     font-size: 1.3rem;
     text-align: center;
     line-height: 50px;
     margin: 40px 280px 86px 280px;
 }
 
+/* hides about me anchor point */
 #about-me {
-    color: black;
+    color: var(--black);
     font-size: 1px;
 }
 
+/* UT and edX logos */
 .edx-logo {
     height: 100px;
     width: 25%;
@@ -139,7 +157,7 @@ h2 {
     margin: 20px 20px 20px 0px;
 }
 
-
+/* displays flex in contanct section */
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -152,6 +170,7 @@ h2 {
     margin: 45px 0;
 }
 
+/* used invert to invert colors in icon */
 .contact-globe-img {
     filter: invert();
     width: 33%;
@@ -172,11 +191,12 @@ h2 {
 .top-a {
     display: flex;
     justify-content: center;
-    color: white;
+    color: var(--white);
     margin: 115px auto;
     font-size: 1rem;
 }
 
+/* changes background color or projects section */
 .projects-container {
     background: rgba(169, 163, 163, 0.647);
     display: flex;
@@ -185,34 +205,37 @@ h2 {
 }
 
 .projects-h2 {
-    color: white;
+    color: var(--white);
 }
 
+/* gives projects a width to fit on page */
 .projects-container a{
     width: 27%;
     margin: 0px 10px;
 }
 
+/* places a label over the project screenshots */
 h3 {
-    background: white;
+    background: var(--white);
     text-align: center;
     position: relative;
     top: -140px;
-    color: white; 
+    color: var(--white);
     padding: 2px 0; 
-    text-shadow: 0 0 20px black;
+    text-shadow: 0 0 20px var(--black);
 }
 
-
+/* makes project screenshots bigger when hovered over */
 h3:hover {
     scale: 1.1;
 } 
 
 .projects-container h2{
     margin: 32px auto;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 5px var(--black);
 }
 
+/* styles project screenshots making them black and white before hover */
 .project-img {
     width: 100%;
     height: 75%;
@@ -222,6 +245,7 @@ h3:hover {
     box-shadow: 5px 5px 25px rgb(42, 42, 42);
 }
 
+/* makes images turn to color when hovered over */
 .project-img:hover {
     filter: none;
     scale: 1.1;
@@ -232,7 +256,7 @@ h3:hover {
 .projects-top-a {
     display: flex;
     justify-content: center;
-    color: white;
+    color: var(--white);
     margin: 60px auto;
 }
 
@@ -244,6 +268,7 @@ h3:hover {
         flex-wrap: wrap;
     }
 
+    /* makes left section take up entire width */
     .left-section-main {
         width: 100%;
         flex-direction: column;
@@ -263,12 +288,14 @@ h3:hover {
         justify-content: space-between;
     }
     
+    /* places links at bottom of page and distributes them in a row */
     .main-links {
         width: 100%;
         flex-direction: row;
         justify-content: space-around;
     }
 
+    /* makes nav take up entire width */
     .main-nav {
         width: 100%;
     }
@@ -277,6 +304,7 @@ h3:hover {
         width: 25%;
     }
 
+    /* sizes buttons */
     .main-button {
         width: 100%;
         font-size: 35px;
@@ -293,7 +321,7 @@ h3:hover {
     }
 
     .top-a {
-        color: white;
+        color: var(--white);
         margin: 50px auto;
     }
 
@@ -304,6 +332,7 @@ h3:hover {
 }
 
 @media screen and (max-width: 768px) {
+    /* change font sizes for mobile */
     h1 {
         font-size: 4rem;
     }
@@ -370,12 +399,9 @@ h3:hover {
         height: 50px;
     }
 
+    /* resizes headshot */
     .head-shot {
         height: 236px;
         width: 43%;
-        filter: grayscale(75%);
-        border-radius: 100px;
     }
 }
-
-
