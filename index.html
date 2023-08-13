@@ -15,7 +15,7 @@
     <body>
         <!-- Top part of page -->
         <main>
-            <header class="header">
+            <header class="header" id="top">
                 <section class="left-section-main">
                     <img src="./assets/images/Screenshot 2023-08-11 at 10.15.17 PM.png">
                     <h1>Luis Mansilla</h1>
@@ -34,7 +34,7 @@
                                 <button class="main-button"><a class="main-button-a" href="#about-me">About Me</a></button>
                             </li>
                             <li>
-                                <button class="main-button"><a class="main-button-a" href="#">Let's Connect</a></button>
+                                <button class="main-button"><a class="main-button-a" href="#contact-anchor">Let's Connect</a></button>
                             </li>
                             <li>
                                 <button class="main-button"><a class="main-button-a" href="#">Projects</a></button> 
@@ -53,17 +53,20 @@
             <img class="ut-logo" src="./assets/images/ut-logo.svg" alt="ut logo">
         </section>
         <section class="contact-container">
+            <h2 id="contact-anchor"></h2>
             <h2 class="contact-h2">Let's Connect</h2>
             <section class="contact-icon-container">
-                <img class="contact-icon-img" alt="globe icon" src="./assets/images/github.svg">
-                <img class="contact-icon-img" alt="globe icon" src="./assets/images/square-x-twitter.svg">    
+                <a href="https://github.com/lmansilla92"><img class="contact-icon-img" alt="github icon" src="./assets/images/github.svg"></a>
+                <a href="#"><img class="contact-icon-img" alt="twitter/x icon" src="./assets/images/square-x-twitter.svg"></a>    
+                <a href="mailto:l_mansilla92@yahoo.com"><img class="contact-icon-img" src="./assets/images/yahoo.svg" alt="yahoo icon"></a>
             </section>
             <img class="contact-globe-img" alt="globe icon" src="./assets/images/globe-solid.svg">
             <section class="contact-icon-container">
-                <img class="contact-icon-img" alt="globe icon" src="./assets/images/facebook.svg">
-                <img class="contact-icon-img" alt="globe icon" src="./assets/images/linkedin.svg">
+                <a href="#"><img class="contact-icon-img" alt="facebook icon" src="./assets/images/facebook.svg"></a>
+                <a href="#"><img class="contact-icon-img" alt="linkedin icon" src="./assets/images/linkedin.svg"></a>
             </section>
         </section>
+        <a class="top-a" href="#top">Back to Top</a>
         <!-- <section class="contact">
             <ul>
                 <li>
