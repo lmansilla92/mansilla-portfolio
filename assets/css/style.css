@@ -26,7 +26,7 @@ img {
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 7rem;
     text-align: center;
     margin: 30px 60px;
     font-family: 'Newsreader', sans-serif;
@@ -45,6 +45,7 @@ h1 {
     flex-direction: column;
     font-family: 'Newsreader', sans-serif;
     font-weight: 200;
+    font-size: 2rem;
     
 }
 
@@ -76,7 +77,7 @@ h1 {
     background: linear-gradient(rgb(35, 35, 35), rgb(115, 111, 111));
     border: 1px solid black;
     border-radius: 15px;
-    font-size: 60px;
+    font-size: 4rem;
     font-family: 'Newsreader', sans-serif;
     font-weight: 400;
     color: white;
@@ -101,7 +102,7 @@ h1 {
 }
 
 h2 {
-    font-size: 100px;
+    font-size: 5rem;
     color: white;
     text-align: center;
     margin: 36px auto;
@@ -110,7 +111,7 @@ h2 {
 
 .about-me-p {
     color: white;
-    font-size: 20px;
+    font-size: 1.3rem;
     text-align: center;
     line-height: 50px;
     margin: 40px 280px 86px 280px;
@@ -168,6 +169,7 @@ h2 {
     justify-content: center;
     color: white;
     margin: 115px auto;
+    font-size: 1rem;
 }
 
 .projects-container {
@@ -296,7 +298,28 @@ h3:hover {
 
 }
 
-@media screen and (max-width: 835px) {
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    .main-p {
+        font-size: 1.5rem;
+    }
+
+    .main-button {
+        font-size: 1.5rem;
+    }
+
+    .main-links li {
+        width: 30%;
+    }
+
+    .about-me-p {
+        line-height: 2rem;
+        font-size: 1rem;
+    }
+
     .contact-globe-img {
         width: 20%;
     }
@@ -306,18 +329,35 @@ h3:hover {
     }
 
     .edx-logo {
-        margin: 25px 60px;
+        margin: 25px 35px;
+    }
+
+    .top-a {
+        margin: 52px auto;
+        padding-bottom: 21px;
+    }
+
+    .ut-logo {
+        height: 124px;
+        width: 45%;
+        margin: 3px;
     }
 
     .projects-container {
-        padding: 25px;
+        padding: 25px 25px 40px 25px;
     }
     .projects-container h2 {
-        font-size: 60px;
+        font-size: 4rem;
+        margin: 40px auto 33px;
     }
 
     .projects-container a {
         width: 33%;
+        margin: 14px 10px;
+    }
+
+    .project-img {
+        margin: 13px auto 65px auto
     }
 
     .contact-icon-img {
