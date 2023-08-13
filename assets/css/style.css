@@ -229,68 +229,53 @@ h3:hover {
     margin: 60px auto;
 }
 
+/* MEDIA QUERIES */
 
+@media screen and (max-width: 992px) {
 
+    .header {
+        flex-wrap: wrap;
+    }
 
+    .left-section-main {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
-/* main {
-    padding: 2%;
+    h1 {
+        margin: 0 auto;
+    }
+
+    .head-shot {
+        margin: 45px auto;
+    }
+
+    .right-section-main {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    
+    .main-links {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main-links li {
+        width: 33%;
+    }
+
+    .main-button {
+        width: 100%;
+        font-size: 50px;
+    }
+
 }
 
-h1 {
-    width: 60%;
-    padding: 15px;
-    font-size: 200%;
-    color: rgb(158, 128, 19)
-}
+@media screen and (max-width: 768px) {
 
-.top-nav {
-    width: 40%;
 
 }
 
-.nav-links {
-    display: flex;
-}
 
-li {
-    width: 33%;
-}
-
-a {
-    color: rgb(158, 128, 19);
-    width: 33%;
-}
-
-.link-div {
-    text-align: center;
-}
-
-h2 {
-    font-size: 350%;
-    text-align: center;
-}
-
-
-
-
- */
-
-/* 
-h1 {
-    color: rgb(158, 128, 19);
-    padding: 8px;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-around;
-}
-
-a {
-    color: rgb(158, 128, 19);
-}
-
-li {
-    border: solid 3px white;
-} */
