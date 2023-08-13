@@ -304,11 +304,11 @@ h3:hover {
     }
 
     .main-p {
-        font-size: .5rem;
+        font-size: 1rem;
     }
 
     .main-button {
-        font-size: .5rem;
+        font-size: 1rem;
     }
 
     .main-links li {
@@ -316,8 +316,8 @@ h3:hover {
     }
 
     .about-me-p {
-        line-height: .5rem;
-        font-size: .5rem;
+        line-height: 1.7rem;
+        font-size: 1rem;
     }
 
     .contact-globe-img {
