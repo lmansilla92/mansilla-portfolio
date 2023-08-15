@@ -70,4 +70,4 @@ Link to the website I used to add social media logos: [Font Awesome](https://fon
 
 ## License
 
-Link to [The MIT License (MIT)](https://github.com/lmansilla92/urban-octo-telegram-accessbility/blob/main/LICENSE)
+Link to [The MIT License (MIT)](https://github.com/lmansilla92/mansilla-portfolio/blob/main/LICENSE)
