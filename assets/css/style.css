@@ -158,12 +158,6 @@ h2 {
     margin: 20px 20px 20px 0px;
 }
 
-/* displays flex in contanct section */
-/* .contact-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 50px 0;
-} */
 
 #contact-anchor {
     height: 5rem;
@@ -178,17 +172,21 @@ h2 {
 .main-icon-container {
     display: flex;
     justify-content: space-around;
+    height: 38rem;
 }
 
 .contact-globe-container {
     display: flex;
+    justify-content: center;
 }
 
 .contact-social-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 7%;
+    flex: -1;
+    align-content: center;
+    width: 10%
 }
 
 /* .main-icon-container {
@@ -205,20 +203,12 @@ h2 {
 /* used invert to invert colors in icon */
 .contact-globe-img {
     filter: invert();
-    width: 100%;
+    width: 60%;
     margin: 2rem auto;
 }
 
-/* .contact-icon-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 0px auto;
-} */
-
 .contact-icon-img {
     filter: invert();
-    /* height: 550%; */
 }
 
 .contact-icon-img:hover {
@@ -389,6 +379,15 @@ h3:hover {
     .about-me-p {
         line-height: 1.7rem;
         font-size: 1rem;
+    }
+
+    .main-icon-container {
+        justify-content: space-evenly;
+        height: 22rem;
+    }
+
+    .contact-social-container {
+        width: 13%;
     }
 
     .contact-globe-img {
