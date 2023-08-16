@@ -15,7 +15,7 @@ Using these skills helped me understand that no matter how much you read, or how
 
 ## Table of Contents
 
-- [Contribute](#repository)
+- [Contribute](#contribute)
 - [Appearance](#appearance)
 - [Changes](#changes)
 - [Features](#features)
