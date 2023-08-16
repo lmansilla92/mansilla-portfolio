@@ -189,17 +189,6 @@ h2 {
     width: 10%
 }
 
-/* .main-icon-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.contact-icon-container {
-    flex: 1;
-} */
-
-
-
 /* used invert to invert colors in icon */
 .contact-globe-img {
     filter: invert();
@@ -358,6 +347,7 @@ h3:hover {
 
 }
 
+/* media queries for mobile */
 @media screen and (max-width: 768px) {
     /* change font sizes for mobile */
     h1 {
@@ -396,24 +386,6 @@ h3:hover {
         width: 50%;
         margin: 0 24%;
     }
-
-    /* .main-icon-container {
-        justify-content: space-evenly;
-        height: 22rem;
-    }
-
-    .contact-social-container {
-        width: 13%;
-    }
-
-    .contact-globe-img {
-        width: 65%;
-    }
-
-    .contact-h2 {
-        font-size: 65px;
-        margin: 45px 0px 90px 0px;
-    } */
 
     .edx-logo {
         margin: 25px 35px;
