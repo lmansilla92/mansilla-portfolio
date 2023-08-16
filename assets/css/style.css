@@ -17,6 +17,7 @@ body {
 
 }
 
+/* makes the top header section flex to control layout */
 .header {
     display: flex;
 }
@@ -169,12 +170,14 @@ h2 {
     margin: 45px 0;
 }
 
+/* sets rules for social media icons and makes the section display flex */
 .main-icon-container {
     display: flex;
     justify-content: space-around;
     height: 38rem;
 }
 
+/* gives the globe icon its own container */
 .contact-globe-container {
     display: flex;
     justify-content: center;
@@ -196,10 +199,12 @@ h2 {
     margin: 2rem auto;
 }
 
+/* makes logos invert colors to fit background color */
 .contact-icon-img {
     filter: invert();
 }
 
+/* places a shadow on the icons during mouse hover */
 .contact-icon-img:hover {
     box-shadow: 0 0 25px var(--black);
 }
@@ -212,6 +217,7 @@ h2 {
     font-size: 1.5vw;
 }
 
+/* adds shadow to the header text for projects */
 .projects-container h2{
     margin: 32px auto;
     text-shadow: 0 0 5px var(--black);
@@ -240,7 +246,7 @@ h2 {
 
 /* positions the small labels to match the big project label */
 .small-label{
-    top: -3.5rem;
+    top: -11vw;
 }
 
 .projects-h2 {
@@ -252,17 +258,12 @@ h3 {
     background: var(--white);
     text-align: center;
     position: relative;
-    top: -7rem;
+    top: -26vw;
     color: var(--white);
     padding: 2px 0; 
     text-shadow: 0 0 20px var(--black);
     font-size: 3.3vw;
 }
-
-/* makes project screenshots bigger when hovered over */
-h3:hover {
-    scale: 1.1;
-} 
 
 /* styles project screenshots making them black and white before hover */
 .project-img {
@@ -274,8 +275,8 @@ h3:hover {
     box-shadow: 5px 5px 25px rgb(42, 42, 42);
 }
 
-/* makes images turn to color when hovered over */
-.project-img:hover {
+/* makes images and labels turn to color and scale up when hovered over */
+.project-img:hover, h3:hover {
     filter: none;
     scale: 1.1;
     border: none;
@@ -357,70 +358,70 @@ h3:hover {
 /* media queries for mobile */
 @media screen and (max-width: 768px) {
 
-    .main-links li {
-        width: 30%;
+/* resizes headshot */
+        .head-shot {
+            height: 236px;
+            width: 43%;
+        }
+
+/* adjusts font sizes on mobile */
+    h1 {
+        font-size: 18.2vw;
     }
 
-    .edx-logo {
-        width: 50%;
-        height: 11vw;
+    .main-p {
+        font-size: 5.5vw;
     }
 
-    .ut-logo {
-        width: 50%;
-        height: 11vw;
-    }
-    /* .main-p {
-        font-size: 1rem;
-    }
-
+    /* resize buttons on main */
     .main-button {
-        font-size: 1rem;
+        height: 20vw;
+        font-size: 6vw;
     }
 
     .main-links li {
         width: 30%;
     }
 
-    .about-me-p {
-        line-height: 1.7rem;
-        font-size: 1rem;
-    }
-
-    .contact-globe-container {
-        width: 33%;
-    }
-
-    .contact-globe-img {
+/* re distributes space for logo to move to the left */
+    .edx-logo {
+        width: 21%;
+        height: 11vw;
         margin: 0;
     }
-    .contact-social-container {
-        width: 33%;
-    }
-
-    .contact-icon-img {
-        width: 50%;
-        margin: 0 24%;
-    }
-
-    .edx-logo {
-        margin: 25px 35px;
-    }
-
-    .top-a {
-        margin: 120px auto 60px;
-        padding-bottom: 21px;
-    }
-
+/* places ut logo next to ed x evenly */
     .ut-logo {
-        height: 124px;
-        width: 45%;
-        margin: 3px;
-    } */
+        width: 79%;
+        height: 11vw;
+        margin: 0;
+    }
 
-    /* resizes headshot */
-    .head-shot {
-        height: 236px;
-        width: 43%;
+    h2 {
+        font-size: 12vw;
+    }
+
+/* uses typography to change line height and font size for better display on mobile */
+    .about-me-p {
+        font-size: 3.8vw;
+        line-height: 4vh;
+    }
+
+/* takes away height to bring header closer to contact icons */
+    .contact-h2 {
+        height: 0;
+    }
+
+    /* hides the globe icon during mobile display to make room for social media icons */
+    .contact-globe-img {
+        display: none;
+    }
+
+/* centers the icons on the mobile screen */
+    .main-icon-container {
+        justify-content: space-evenly;
+    }
+
+    .contact-social-container {
+        width: 18vw;
     }
 }
