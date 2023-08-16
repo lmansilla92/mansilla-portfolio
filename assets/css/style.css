@@ -41,7 +41,7 @@ body {
 
 /* styles h1 and adds text shadow*/
 h1 {
-    font-size: 7rem;
+    font-size: 9.2vw;
     text-align: center;
     margin: 30px 60px;
     font-weight: 200;
@@ -60,7 +60,7 @@ h1 {
     display: flex;
     flex-direction: column;
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 2.5vw;
     
 }
 
@@ -96,7 +96,7 @@ h1 {
     background: linear-gradient(rgb(35, 35, 35), rgb(115, 111, 111));
     border: 1px solid var(--black);
     border-radius: 15px;
-    font-size: 4rem;
+    font-size: 5vw;
     font-weight: 400;
     color: var(--white);
 }
@@ -123,7 +123,7 @@ h1 {
 }
 
 h2 {
-    font-size: 5rem;
+    font-size: 7vw;
     color: var(--white);
     text-align: center;
     margin: 36px auto;
@@ -133,7 +133,7 @@ h2 {
 /* centers paragraph in about me section and defines line height */
 .about-me-p {
     color: var(--white);
-    font-size: 1.3rem;
+    font-size: 1.8vw;
     text-align: center;
     line-height: 50px;
     margin: 40px 280px 86px 280px;
@@ -209,7 +209,12 @@ h2 {
     justify-content: center;
     color: var(--white);
     margin: 115px auto;
-    font-size: 1rem;
+    font-size: 1.5vw;
+}
+
+.projects-container h2{
+    margin: 32px auto;
+    text-shadow: 0 0 5px var(--black);
 }
 
 /* changes background color or projects section */
@@ -217,17 +222,29 @@ h2 {
     background: rgba(169, 163, 163, 0.647);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* makes first project bigger than the rest */
+.big-project {
+    width: 80%;
+    margin: 1rem auto 0;
+}
+
+/* makes small project links fit 2 per row */
+.small-project {
+    width: 36%;
+    margin: 0;
+}
+
+/* positions the small labels to match the big project label */
+.small-label{
+    top: -3.5rem;
 }
 
 .projects-h2 {
     color: var(--white);
-}
-
-/* gives projects a width to fit on page */
-.projects-container a{
-    width: 27%;
-    margin: 0px 10px;
 }
 
 /* places a label over the project screenshots */
@@ -235,21 +252,17 @@ h3 {
     background: var(--white);
     text-align: center;
     position: relative;
-    top: -140px;
+    top: -7rem;
     color: var(--white);
     padding: 2px 0; 
     text-shadow: 0 0 20px var(--black);
+    font-size: 3.3vw;
 }
 
 /* makes project screenshots bigger when hovered over */
 h3:hover {
     scale: 1.1;
 } 
-
-.projects-container h2{
-    margin: 32px auto;
-    text-shadow: 0 0 5px var(--black);
-}
 
 /* styles project screenshots making them black and white before hover */
 .project-img {
@@ -323,9 +336,8 @@ h3:hover {
     /* sizes buttons */
     .main-button {
         width: 100%;
-        font-size: 35px;
         margin: 0 auto;
-        height: 80px;
+        height: 11vw;
     }
 
     .about-me-p {
@@ -340,21 +352,25 @@ h3:hover {
         color: var(--white);
         margin: 50px auto;
     }
-
-    .projects-container h2{
-        margin: 60px auto;
-    }
-
 }
 
 /* media queries for mobile */
 @media screen and (max-width: 768px) {
-    /* change font sizes for mobile */
-    h1 {
-        font-size: 4rem;
+
+    .main-links li {
+        width: 30%;
     }
 
-    .main-p {
+    .edx-logo {
+        width: 50%;
+        height: 11vw;
+    }
+
+    .ut-logo {
+        width: 50%;
+        height: 11vw;
+    }
+    /* .main-p {
         font-size: 1rem;
     }
 
@@ -400,24 +416,7 @@ h3:hover {
         height: 124px;
         width: 45%;
         margin: 3px;
-    }
-
-    .projects-container {
-        padding: 25px 25px 40px 25px;
-    }
-    .projects-container h2 {
-        font-size: 4rem;
-        margin: 40px auto 33px;
-    }
-
-    .projects-container a {
-        width: 33%;
-        margin: 14px 10px;
-    }
-
-    .project-img {
-        margin: 13px auto 65px auto
-    }
+    } */
 
     /* resizes headshot */
     .head-shot {
