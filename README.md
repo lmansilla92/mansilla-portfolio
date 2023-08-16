@@ -2,7 +2,7 @@
 
 ## Repository
 
-In this repository you will find the application code to my portfolio web page. The purpose of this portfolio is to show case my deployed projects. This web page also contains a section about me with a short description that shares my current situation, and the course I'm taking to reach my career change goal. Some of the skills I learned since the start of the full stack boot camp are on display throughout my portfolio. Some of these include:
+In this repository you will find the application code to my portfolio web page. The purpose of this portfolio is to showcase my deployed projects. This web page also contains a section about me with a short description that shares my current situation, and the course I'm taking to reach my career change goal. The skills I learned since the start of the full stack boot camp are on display throughout my portfolio. Some of these include:
 
 - CSS Variables using the var() Function
 - Linking new fonts using font-family
@@ -11,7 +11,7 @@ In this repository you will find the application code to my portfolio web page. 
 - Using the psuedo-class :hover to add effects during hover
 - Using Media Queries to make the page responsive
 
-Using these skills helped me understand that no matter how much you read, or how many videos you watch, it will not make sense unless you actually get hands on practice. Starting this code from scratch helped me by putting me in situations where my code wasn't doing exactly what I wanted it to, and forcing me to figure out the problem. Computational thinking is something we learned that helped me tremendously. The computer is very literal and you have to tell it exactly what you want it to do and be as specific as possible. My plan for the future of this application is to continuosly update it as I learn more during the bootcamp so that when we finish this course, the new knowledge I gain will reflect in my portfolio.
+Using these skills helped me understand that no matter how much you read, or how many videos you watch, it will not make sense unless you actually get hands on practice. Starting this code from scratch helped by putting me in situations where my code wasn't doing exactly what I wanted it to, and forcing me to figure out the problem. Computational thinking is something we learned that helped me tremendously. The computer is very literal and you have to tell it exactly what you want it to do and be as specific as possible. My plan for the future of this application is to continuosly update it as I learn more during the bootcamp so that when we finish this course, the new knowledge I gain will reflect in my portfolio.
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ Using these skills helped me understand that no matter how much you read, or how
 
 ## Contribute
 
-To view the repository of my portfolio application follow this link  [Urban Octo Telegram Accessibility Repository](https://github.com/lmansilla92/mansilla-portfolio)
+To view the repository of my portfolio application follow this link  [mansilla-portfolio](https://github.com/lmansilla92/mansilla-portfolio)
 
 If you need help on how to clone a GitHub repository into your local repository, visit the following GitHub link: [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) 
 
