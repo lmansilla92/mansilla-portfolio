@@ -381,7 +381,23 @@ h3:hover {
         font-size: 1rem;
     }
 
-    .main-icon-container {
+    .contact-globe-container {
+        width: 33%;
+    }
+
+    .contact-globe-img {
+        margin: 0;
+    }
+    .contact-social-container {
+        width: 33%;
+    }
+
+    .contact-icon-img {
+        width: 50%;
+        margin: 0 24%;
+    }
+
+    /* .main-icon-container {
         justify-content: space-evenly;
         height: 22rem;
     }
@@ -397,7 +413,7 @@ h3:hover {
     .contact-h2 {
         font-size: 65px;
         margin: 45px 0px 90px 0px;
-    }
+    } */
 
     .edx-logo {
         margin: 25px 35px;
