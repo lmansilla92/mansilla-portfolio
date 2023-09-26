@@ -94,7 +94,7 @@ h1 {
     height: 185px;
     width: 450px;
     opacity: 0.6;
-    background: linear-gradient(rgb(35, 35, 35), rgb(115, 111, 111));
+    background: linear-gradient(rgb(58, 56, 56), rgb(115, 111, 111));
     border: 1px solid var(--black);
     border-radius: 15px;
     font-size: 5vw;
